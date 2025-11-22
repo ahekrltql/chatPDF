@@ -47,7 +47,7 @@ text_splitter = RecursiveCharacterTextSplitter(
     is_separator_regex=False,
 )
 
-texts = text_splitter.split_documents(pages)
+texts = text_splitter.split_documents(docs)
 
 #Embedding
 embeddings_model = OpenAIEmbeddings(
