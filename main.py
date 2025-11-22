@@ -24,7 +24,7 @@ st.title("ChatPDF")
 st.write("---")
 
 #OpenAI 키 입력받기
-openai_key = st.text.input('OPEN_AI_API_KEY', type="password")
+openai_key = st.text_input('OPEN_AI_API_KEY', type="password")
 
 # 파일 업로드
 uploaded_file = st.file_uploader("PDF 파일을 올려주세요.", type=["pdf"])
