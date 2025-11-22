@@ -108,8 +108,7 @@ python-dateutil==2.9.0.post0
 python-dotenv==1.2.1
 pytz==2025.2
 PyYAML==6.0.3
-+pysqlite3-binary
-referencing==0.37.0
+pysqlite3-binary
 referencing==0.37.0
 regex==2025.11.3
 requests==2.32.5
@@ -148,4 +147,5 @@ xxhash==3.6.0
 yarl==1.22.0
 zipp==3.23.0
 zstandard==0.25.0
+
 
